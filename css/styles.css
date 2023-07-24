@@ -1,0 +1,201 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    
+}
+.header{
+    background-color: #c91313;
+}
+h1{
+    color: aliceblue;
+    
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    margin: 0%;
+}
+main{
+    background-image: linear-gradient(to bottom, #0f67cc,#0b4397, #3033eb);
+    border-top: 2px solid ;
+    border-right: 6px solid ;
+    border-bottom: 6px solid ;
+    border-left: 3px solid ;
+    border-image: linear-gradient(to bottom, #539bfaef, #1920a3);
+    border-image-slice: 1;
+    
+}
+.c_logo{
+    display: flex;   
+    justify-content: center; 
+    padding-bottom: 15px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card{
+    
+    
+    flex-basis: 20%;
+    background-color: transparent;
+    
+    margin-bottom: 15px;
+    padding: 10px;
+    border:solid #f00808;
+    text-align: center;
+    box-shadow: 5px 5px 5px #000000e6;
+}
+h2,p{
+    padding: 0%;
+    margin: 0%;
+}
+.img{
+   
+    width: 200px;
+    height: 200px;
+    border: solid #f00808;
+    border-radius: 20px;
+}
+.c_img{
+    
+}
+
+.button {
+    background-color: #e7dede;
+    color: #070707;
+    padding: 1px;
+    border-radius: 2px;
+    border: solid 1px;
+    text-decoration: none;
+    
+}
+.descuento{
+    background-color: #db0909;
+    color: #fdfafa;
+    border-radius: 2px;
+    border: solid 1px black;
+    
+    text-align: center;
+    margin: 0px 100px;
+}
+.precio{
+    margin-bottom: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+.card p,h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+  
+  .card:hover {
+    background-image: linear-gradient(to bottom,#2770df, #7f66c4 ,#2d94f5);
+    backdrop-filter: blur(10px);
+
+    .img{
+      width: 210px;
+      height: 210px;
+      
+    }
+    
+  }
+  
+  .button:hover {
+    background-color: #1051b3;
+    color: #f5e6e6;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid 1px transparent;
+    padding-bottom: 5px;
+    border-radius: 6px;
+  }
+  
+  .footer{
+    
+    text-align: center;
+    background-image: url(../img/logofinal.jpeg);
+    border-bottom:6px solid #101e6e;
+    box-shadow: 0 6px 0 0 #1a92d8;
+  }
+  footer p{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f5e6e6;
+    padding-bottom: 4px;
+    
+  }
+  footer div{
+    padding-bottom: 40px;
+    
+  }
+  .button1 {
+    background-color: #3b65ee;
+    color: #ebe6e6;
+    padding: 1px 4px;
+    border-radius: 6px;
+    border: solid 3px rgb(63, 58, 58);
+    text-decoration: none;
+    font-size: large;
+   
+  }
+  .button2 {
+    background-color: #e2dfdf;
+    color: #070707;
+    padding: 1px;
+    border-radius: 2px;
+    border: solid 1px;
+    text-decoration: none;
+    font-size: x-small;
+  }
+  .button1:hover {
+    background-color: #2b0ae7;
+    color: #f5e6e6;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .button2:hover {
+    background-color: #2b0ae7;
+    color: #f5e6e6;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  @media only screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .card {
+        flex-basis: 100%;
+    }
+    .descuento{
+      margin: 0px 180px;
+    }
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-icon img {
+  width: 40px;
+  height: 40px;
+}
